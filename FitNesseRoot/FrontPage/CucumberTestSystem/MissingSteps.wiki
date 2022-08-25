@@ -1,0 +1,26 @@
+---
+Test
+---
+Feature: Multiplication - Missing steps
+
+
+Scenario: 1 squared
+Given a variable x with value 3
+When I multiply x by 3
+Then x should equal 9
+
+Scenario: 2 squared
+Given a variable x with value 2
+When I multiplyssssssss x by 2
+And who says hi
+Then x should equal 4
+
+Scenario: 3 squared
+Given a variable x with value 3
+When I multiply x by 3
+Then x should equal 9
+
+Scenario: 4 squared
+Given a variable x with value 3
+When I muasdasdltiply x by 3
+Then x should equal 9

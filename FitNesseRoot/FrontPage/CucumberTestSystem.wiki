@@ -1,0 +1,11 @@
+---
+Suite
+---
+!1 Test suite X
+This page tells you how to use the Cucumber Test System for FitNesse.
+
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {cucumber}
+
+!define cucumber.glue {org.fitnesse.cucumber.stepdefinitions}
