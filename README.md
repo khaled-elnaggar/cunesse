@@ -1,5 +1,8 @@
 # CuNesse
 
+[![Maven Central](https://img.shields.io/maven-central/v/org.fitnesse/fitnesse?label=fitnesse&version=20220319&color=green)](https://search.maven.org/artifact/org.fitnesse/fitnesse/20220319/jar) [![Maven Central](https://img.shields.io/maven-central/v/io.cucumber/cucumber-java?label=cucumber-jvm&style=flat&version=7.3.4&color=green)](https://search.maven.org/artifact/io.cucumber/cucumber-java/7.3.4/jar)
+
+
 Welcome to CuNesse: [Cucumber] and [FitNesse] integration.
 
 CuNesse is simply a "Test System plugin" for [FitNesse] to enable [cucumber-jvm](https://cucumber.io/docs/installation/java/) features in writing and executing Gherkin scripts, all the while leveraging [FitNesse]'s user-friendly wiki web server, versioning and reporting capabilities.
