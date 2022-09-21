@@ -9,20 +9,16 @@ CuNesse is simply a "Test System plugin" for [FitNesse] to enable [cucumber-jvm]
 
 
 ## Demo
-First off, you have to clone this repo and navigate inside of it
+First off, clone this repo and navigate inside it using the following commands
 ```sh
 git clone https://github.com/khaled-elnaggar/cunesse.git
 cd cunesse
 ```
 This repo contains a toy demo, to run FitNesse server locally, simply run
 ```sh
-mvn test -Pfitnesse-server
+./mvnw test -Pfitnesse-server
 ```
-Maven wrapper is also included in case you do not have maven installed, simply run
 
-```sh
-.\mvnw test -Pfitnesse-server
-```
 
 Now go to `http://localhost:8003/` on your web browser to find the familiar FitNesse landing page.
 
